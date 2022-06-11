@@ -1,0 +1,132 @@
+*{box-sizing: border-box;}
+
+.header /*Styles the header*/
+{
+  text-align:left;
+  font-family:sans-serif;
+  color:darkcyan;
+  font-size:5vw;
+  padding: 1vw;
+  background-color:black;
+}
+
+.topnav /*Styles and sticks the navigation bar in place */ 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width:100%;
+  background-color:azure;
+}
+
+.topnav a /*Style the navigation links*/
+{
+  float:left;
+  display:block;
+  color:darkcyan;
+  font-family:sans-serif;
+  font-size:2vw;
+  text-align:center;
+  padding:1vw;
+  text-decoration:none;
+  width:12.5%;
+}
+
+.topnav a:hover /*Change color on hover*/
+{color:black;}
+
+.active /*Change color of active page*/
+{background-color:black;}
+
+/*Sets website body styling*/
+body 
+{
+  background-color:azure;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:darkcyan;
+  text-align:center;
+  position:relative;
+  padding:.2%;
+  font-size: 3vw;
+}
+
+/*Container holding the image and the text */
+.container 
+{
+  position: relative;
+  width:100%;
+}
+  
+/*Sets text box over image */
+.text-block 
+{ position: absolute;
+  text-align: center;
+  font-size:3vw;
+  bottom:25%;
+  right:20%;
+  top:25%;
+  left:20%;
+  background-color: lightgrey;
+  padding:1%
+} 
+
+h1
+{font-size:4vw;
+font-style: bold;}
+
+p
+{font-size:2vw;
+text-align: left;}
+
+img
+{
+  float:center;
+  width:100%;
+}
+
+.footer
+{
+  color:darkcyan;
+  font-size:2vw;
+  text-align:left;
+  padding:1vw;
+  background-color: black;
+}
+
+/*Hides the text for the captions that are included in the website for those using screen readers. */
+.figurecaption
+{
+  font-size: 1vw;
+  color:azure;
+}
+
+/*Styling for grid imaging*/
+.row 
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+/*Creates two equal columns that sit next to each other */
+.column 
+{
+  flex: 50%;
+  max-width: 50%;
+}
+.column img
+{
+  vertical-align: middle;
+  width:100%;
+}
+/*Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px)
+{
+.column 
+ {
+  flex: 100%;
+  max-width:100%;
+ }
+}
