@@ -19,7 +19,7 @@
   position: sticky;
   top: 0;
   width:100%;
-  background-color:lavenderblush;
+  background-color:whitesmoke;
 }
 
 .topnav a /*Style the navigation links*/
@@ -44,7 +44,7 @@
 /*Sets website body styling*/
 body 
 {
-  background-color:lavenderblush;
+  background-color:whitesmoke;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:steelblue;
   text-align:center;
@@ -69,7 +69,7 @@ body
   right:20%;
   top:25%;
   left:20%;
-  background-color: lavenderblush;
+  background-color: whitesmoke;
   opacity:90%;
   padding:1%;
 } 
@@ -102,7 +102,7 @@ img
 .figurecaption
 {
   font-size: 1vw;
-  color:lavenderblush;
+  color:whitesmoke;
 }
 
 /*Styling for grid imaging*/
